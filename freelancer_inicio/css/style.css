@@ -24,6 +24,12 @@ body {
   margin: 0 auto;
 }
 
+.hero {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .titulo {
   text-align: center;
   font-size: var(--fuente-tamano);
