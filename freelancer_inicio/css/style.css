@@ -1,0 +1,56 @@
+:root {
+  --blanco: #fff;
+  --negro: #000;
+  --primario: #282a36;
+  --secundario: #44475a;
+  --gris: #6272a4;
+
+  --fuente-principal: 'Krub', sans-serif;
+  --fuente-tamano: 3.8rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--fuente-principal);
+}
+
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.titulo {
+  text-align: center;
+  font-size: var(--fuente-tamano);
+  color: var(--primario);
+
+  font-weight: bold;
+}
+
+/* ACCEDEMOS A LAS ETIQUETAS */
+
+.titulo span {
+  font-size: 2rem;
+  color: var(--secundario);
+}
+
+.nav-bg {
+  background-color: var(--gris);
+}
+
+.navegacion-principal {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.navegacion-principal a {
+  color: var(--blanco);
+  text-decoration: none;
+}
+.navegacion-principal a:hover {
+  background-color: var(--secundario);
+}
