@@ -71,7 +71,7 @@ h3 {
 }
 
 .btn {
-  background-color: var(--gris);
+  background-color: var(--purple);
   border-radius: 1rem;
   color: var(--primario);
   font-size: 1.7rem;
@@ -139,7 +139,7 @@ h3 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: var(--blanco);
+  color: var(--primario);
 }
 
 .footer {
